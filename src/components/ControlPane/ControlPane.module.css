@@ -9,6 +9,7 @@
     a little gross, but we haven't seen the tools
     to deal with it yet!
   */
+  position: relative;
   margin-bottom: 32px;
 }
 

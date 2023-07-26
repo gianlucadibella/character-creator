@@ -29,7 +29,9 @@ function App() {
   );
 
   return (
-    <main className={styles.characterEditor}>
+    <main className={styles.characterEditor} style={{
+      display: 'flex',
+    }}>
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
@@ -76,6 +78,7 @@ function App() {
             handleSelectOption={setClothesColor}
           />
         </div>
+
       </MaxWidthWrapper>
 
       <div className={styles.characterWrapper}>
